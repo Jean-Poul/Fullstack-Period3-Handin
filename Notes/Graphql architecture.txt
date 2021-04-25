@@ -1,0 +1,36 @@
+graphql has only been realeased as a specification. This means that graphql is 
+no more than a long document that describes how a graphql server has to behave. What kind of request it
+should accept and what the response format has to look like for these requests.
+More about the specification can be found on https://facebook.github.io/graphql.
+You have to build the graphql server yourself and can do that in any programming language.
+
+GraphQL Server with a Connected Database:
+- uses a single web server that implements graphql
+- server resolves queries and contructs response with data
+that it fetches from the database
+
+graphql is transportlayer agnostic which means it can be used with any available network protocol
+such as tcp or web sockets
+graphql doesn't care if you use sql (mysql) or nosql (mongodb)
+
+GraphQL Server integrated with the Existing System:
+- compelling use case for companies with legacy infrastructures and many diffrent APIs
+(there is a high maintenance burden)
+- graphql can be used to unify existing systems and hide complexity of data fetching logic (graphql api)
+- the server doesn't care about what the data sources are (databases, web services, 3rd party APIs)
+
+A Hybrid approach with a Connected Database and Integrated Systems:
+- gets the data from a database or external APIs
+
+Resolver functions:
+The payload of a graphql queries/mutations consist of a set of fields.
+These fields coralates to a resolver function.
+The purpose of each resolver is to retrieve the data for its corresponding field.
+
+GraphQL clients
+- graphql is great for frontend developers as data fetching complexity can be pushed to the server-side
+- client doesn't care where the data is coming from
+
+
+Når man bruger graphql på client siden går man udenom browseren og herved får man ikke alle browserens caching features.
+Her kommer Apollo ind i billedet, da der er caching features.
