@@ -344,7 +344,7 @@ Apollo Client is a comprehensive state management library for JavaScript. It ena
 
 **Explain the purpose of ApolloClient and the ApolloProvider component**
 
-- Apollo Client is a comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL. Use it to fetch, cache, and modify application data, all while automatically updating your UI.
+- Apollo Client is a comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL. Use it to fetch, cache, and modify application data, all while automatically updating your UI. ApolloClient is to establish a connection to your domain(url) and to attached cache management. You can even attach header information here (for cors, cookies or basic authentication).
 
 - You connect Apollo Client to React with the ApolloProvider component. The ApolloProvider is similar to React's Context.Provider. It wraps your React app and places the client in the context, which enables you to access it from anywhere in your component tree.
 
