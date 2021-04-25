@@ -383,12 +383,12 @@ useQuery<FriendData>(
 
 **Answer:**
 
-Can be found in FindFriend.ts in apolloClientWithLoging in line 33-35.
+First examle can be found in FindFriend.ts in apolloClientWithLoging in line 33-35.
 
 [Apollo client](https://github.com/cph-pk/4sem-Fullstack-Flow3/tree/main/Day-3/apolloClientWithLogin/src/components)
 
-First example in addFriends.tsx in line 48-57
-Second example can be found in Login.tsx in line 45-47 (localStorage.setItem())
+Second example in addFriends.tsx in line 48-57 <br />
+Third example can be found in Login.tsx in line 45-47 (localStorage.setItem())
 
 
 In an Apollo-based React Component, demonstrate how to perform GraphQL Mutations?
@@ -410,8 +410,8 @@ Look in the startcode and apolloClientWithLogin.
 
 ***Backend:***
 
-Important parts is that express will be started with important middleware in app.ts. Server starts in www.ts. All endpoints can be found in FriendRoutesAuth.ts. All authentication can be found in /middleware/basic-auth. The friendFacade talks with MongoDB (we instantiate a facade with an db from FriendRoutesAuth). Also remember we can fetch the db because we attach it to the global app variable. Talk about everything related to graphql (resolvers and schema). If time allows it you can talk about custom error and logging and debugging.
+Important parts is that express will be started with important middleware in app.ts. Server starts in www.ts. All endpoints can be found in FriendRoutesAuth.ts. All authentication can be found in /middleware/basic-auth. The friendFacade talks with MongoDB (we instantiate a facade with an db from FriendRoutesAuth). Also remember we can fetch the db because we attach it to the global app variable. Talk about everything related to graphql (resolvers and schema). If time allows it you can talk about custom error, logging and debugging.
 
 ***Frontend:***
 
-App.tsx which contains everything Apollo related (ApolloProvider and ApolloClient). Login for localStorage handling together with Header.tsx. Besides that all the functions in all the components (create, update, find and delete).
+App.tsx which contains everything Apollo related (ApolloProvider and ApolloClient). Login for localStorage handling together with Header.tsx. Beside that all the functions in all the components (create, update, find and delete).
