@@ -159,8 +159,8 @@ Schema Definition Language (SDL) is a way of defining a GraphQL schema. It consi
 ___
 ## Provide examples demonstrating data fetching with GraphQL. You should provide examples both running in a Sandbox/playground and examples executed in an Apollo Client
 
-**Answer:**
-####Sandbox/playground means that I have to show queries done in graphiql####
+**Answer:** < br/>
+###Sandbox/playground means that I have to show queries done in graphiql###
 
 Start(Remember the server starts in www.ts): 
 App.ts
@@ -222,7 +222,8 @@ import { ApolloProvider, ApolloClient, createHttpLink, InMemoryCache } from "@ap
 ___
 ## Provide a number of examples demonstrating; creating, updating and deleting with Mutations. You should provide examples both running in a Sandbox/playground and examples executed in an Apollo Client.
 
-**Answer:**
+**Answer:**< br/>
+###Sandbox/playground means that I have to show queries done in graphiql###
 
 Look in apolloClientWithLogin(frontend - backend can be found in our startcode) .
 
