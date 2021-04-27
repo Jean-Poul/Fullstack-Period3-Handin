@@ -160,6 +160,7 @@ ___
 ## Provide examples demonstrating data fetching with GraphQL. You should provide examples both running in a Sandbox/playground and examples executed in an Apollo Client
 
 **Answer:**
+####Sandbox/playground means that I have to show queries done in graphiql####
 
 Start(Remember the server starts in www.ts): 
 App.ts
