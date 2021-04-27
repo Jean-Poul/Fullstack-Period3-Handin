@@ -161,7 +161,7 @@ ___
 
 **Answer:** 
 
-##Sandbox/playground means that I have to show queries done in graphiql##
+### Sandbox/playground means that I have to show queries done in graphiql ###
 
 Start(Remember the server starts in www.ts): 
 App.ts
@@ -225,7 +225,7 @@ ___
 
 **Answer:**
 
-##Sandbox/playground means that I have to show queries done in graphiql##
+### Sandbox/playground means that I have to show queries done in graphiql ###
 
 Look in apolloClientWithLogin(frontend - backend can be found in our startcode) .
 
